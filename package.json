@@ -1,0 +1,12 @@
+{
+  "name": "cardimg-api",
+  "version": "1.0.0",
+  "description": "CARDIMG protocol API service — serves indexed card images and metadata over HTTP",
+  "main": "lib/api.js",
+  "scripts": {
+    "start": "node scripts/serve.cjs"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
